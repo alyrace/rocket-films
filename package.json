@@ -6,13 +6,33 @@
   "scripts": {
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"**/*.{js,jsx}\" --quiet",
+    "dev": "parcel public/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/preset-env": "^7.6.0",
+    "@babel/preset-react": "^7.0.0",
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.3.0",
     "eslint-config-prettier": "^6.2.0",
-    "prettier": "^1.18.2"
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.3",
+    "prettier": "^1.18.2",
+    "sass": "^1.23.0-module.beta.1"
+  },
+  "dependencies": {
+    "@reach/router": "^1.2.1",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0",
+    "react-redux": "^7.1.1",
+    "react-router-dom": "^5.0.1",
+    "redux": "^4.0.4",
+    "swiper": "^4.5.0"
   }
 }
